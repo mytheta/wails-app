@@ -1,0 +1,17 @@
+{
+ "name": "wails-app",
+ "description": "Enter your project description",
+ "author": {
+  "name": "yutsuki miyashita",
+  "email": "m183310k@st.u-gakugei.ac.jp"
+ },
+ "version": "0.1.0",
+ "binaryname": "wails-app",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npm run build",
+  "bridge": "src",
+  "serve": "npm run serve"
+ }
+}
